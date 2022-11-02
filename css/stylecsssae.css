@@ -1,0 +1,156 @@
+
+header {
+background-color:#4D8A8A;
+grid-area:hd;
+border:solid 2px;
+border-radius: 10px;
+color:white;
+}
+
+body {
+background-color:#C6C9C9;
+font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.first{
+text-align: center;
+font-family:Impact;
+color:black;
+text-decoration: underline ;
+}
+
+.title{
+color:black;
+}
+
+.title_illu{
+color:black;
+text-decoration: underline;
+}
+
+.title_nav{
+color:white;
+font-weight: bold;
+background-color:black;
+}
+
+p{
+color:white;
+}
+
+nav {
+grid-area:na;
+border:solid 2px;
+border-radius: 10px;
+color: black;
+background-color:#A7DFDF;
+}
+
+a:link {color: black;}
+a:visited {color: purple;}
+a:hover {color: red;}
+a:active {color: green;}
+
+.bloc1{
+background-color:#85A5A5;
+color:white;
+grid-area:blc1;
+border:solid 3px;
+border-radius: 10px;
+
+}
+.bloc2{
+background-color:#85A5A5;
+color:white;
+grid-area:blc2;
+border:solid 3px;
+border-radius: 10px;
+}
+
+.bloc1bis{
+background-color:#85A5A5;
+color:white;
+grid-area:blc1;
+border:solid 3px;
+border-radius: 10px;
+text-align:center;
+}
+
+.bloc2bis{
+background-color:#85A5A5;
+color:white;
+grid-area:blc2;
+border:solid 3px;
+border-radius: 10px;
+text-align:center;
+}
+
+.bloc1t{
+background-color:#85A5A5;
+color:white;
+grid-area:blc1;
+border:solid 3px;
+border-radius: 10px;
+text-align:center;
+}
+
+
+
+.bloc2m{
+background-color:#85A5A5;
+color:white;
+grid-area:blc2;
+border:solid 3px;
+border-radius: 10px;
+text-align:center;
+}
+
+.bloc3{
+background-color:#99CDCD;
+color:white;
+grid-area:blc3;
+border:solid 3px;
+border-radius: 10px;
+}
+
+.blocim{
+grid-area:blcim;
+text-align:center;
+}
+
+
+section{
+color:white;
+grid-area:sec;
+background-color:#99CDCD;
+border:solid 3px;
+border-radius: 10px;
+}
+
+
+
+
+
+
+footer{
+border:solid 2px;
+border-radius: 10px;
+color: white;
+background-color:#4D8A8A;
+grid-area:ftr;
+}
+
+.wrapper{
+	display: grid;
+	grid-template-columns: 1fr  2fr 2fr 1fr;
+	grid-auto-rows: minmax(50px, auto);
+	grid-column-gap:10px;
+	grid-row-gap:10px;
+	grid-template-areas:
+	"hd  hd   hd   hd "
+	"na  sec  sec  blcim "
+	"na  blc1 blc2 blcim "
+	"na  blc1 blc2 .  "
+	"na  blc3 blc3 .  "
+	"ftr ftr ftr   ftr ";
+	}
