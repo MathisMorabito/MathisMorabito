@@ -67,6 +67,9 @@ border:solid 3px;
 border-radius: 10px;
 }
 
+
+
+
 .bloc1bis{
 background-color:#85A5A5;
 color:white;
@@ -138,6 +141,7 @@ border-radius: 10px;
 color: white;
 background-color:#4D8A8A;
 grid-area:ftr;
+text-align:center;
 }
 
 .wrapper{
