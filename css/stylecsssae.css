@@ -1,4 +1,7 @@
 
+
+
+
 header {
 background-color:#4D8A8A;
 grid-area:hd;
@@ -21,6 +24,7 @@ text-decoration: underline ;
 
 .title{
 color:black;
+
 }
 
 .title_illu{
@@ -35,7 +39,7 @@ background-color:black;
 }
 
 p{
-color:white;
+color:black;
 }
 
 nav {
@@ -144,6 +148,8 @@ grid-area:ftr;
 text-align:center;
 }
 
+
+@media screen and (min-width: 500px){
 .wrapper{
 	display: grid;
 	grid-template-columns: 1fr  2fr 2fr 1fr;
@@ -158,3 +164,16 @@ text-align:center;
 	"na  blc3 blc3 .  "
 	"ftr ftr ftr   ftr ";
 	}
+
+	
+}
+	
+
+
+
+
+ 
+
+
+
+
