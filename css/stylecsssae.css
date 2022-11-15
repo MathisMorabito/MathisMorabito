@@ -42,6 +42,12 @@ strong{
 	color:red;
 }
 
+img {
+border-style:dotted ;
+border-radius: 10px;
+color:black;
+}
+
 p{
 color:black;
 }
