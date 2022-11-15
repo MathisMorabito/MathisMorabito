@@ -38,6 +38,10 @@ font-weight: bold;
 background-color:black;
 }
 
+strong{
+	color:red;
+}
+
 p{
 color:black;
 }
@@ -162,7 +166,7 @@ text-align:center;
 	"na  blc1 blc2 blcim "
 	"na  blc1 blc2 .  "
 	"na  blc3 blc3 .  "
-	"ftr ftr ftr   ftr ";
+	"ftr ftr ftr   ftr";
 	}
 
 	
